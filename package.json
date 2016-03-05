@@ -1,0 +1,23 @@
+{
+  "name": "ferndrop-website",
+  "version": "0.0.1",
+  "description": "Website to tell the world about Ferndrop",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vignesh-sankaran/ferndrop-website.git"
+  },
+  "author": "Vignesh Sankaran",
+  "license": "",
+  "bugs": {
+    "url": "https://github.com/vignesh-sankaran/ferndrop-website/issues"
+  },
+  "homepage": "https://github.com/vignesh-sankaran/ferndrop-website#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-server-livereload": "^1.7.1"
+  }
+}
