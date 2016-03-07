@@ -1,19 +1,12 @@
-header {
+header, #description, #tripper {
 	display: block;
-	height: 100px;
-	width: 800px;
+	width: 760px;
 	margin-left: auto;
 	margin-right: auto;
 }
 
-#logo {
-	display: block;
-	width: 200px;
-}
-
-#contact {
-	display: block;
-	width: 50px;
+header {
+	height: 100px;
 }
 
 body {
@@ -22,4 +15,16 @@ body {
 	background-position: center top;
 	background-size: 800px;
 	background-repeat: no-repeat;
+}
+
+#logo {
+	display: inline;
+	width: 200px;
+	float: left;
+}
+
+#contact {
+	display: inline;
+	width: 50px;
+	float: right;
 }
