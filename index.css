@@ -10,6 +10,8 @@ header {
 }
 
 body {
+	font-family: 'Lato', sans-serif;
+	color: #FFF;
 	background-color: rgb(74,74,74);
 	background-image: url('resources/background.png');
 	background-position: center top;
