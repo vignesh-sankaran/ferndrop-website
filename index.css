@@ -5,6 +5,10 @@ header, #description, #tripper {
 	margin-right: auto;
 }
 
+.italicise {
+	font-style: italic;
+}
+
 header {
 	height: 100px;
 }
@@ -21,7 +25,7 @@ body {
 
 #logo {
 	display: inline;
-	width: 200px;
+	height: 100px;
 	float: left;
 }
 
@@ -29,4 +33,34 @@ body {
 	display: inline;
 	width: 50px;
 	float: right;
+	margin-top: 25px;
+}
+
+#description {
+	margin-top: auto;
+	margin-bottom: auto;
+	height: 154px;
+}
+
+#description span {
+	padding-top: 28px;
+	display: table-cell;
+  	vertical-align: middle;
+}
+
+#tripper p {
+	width: 400px;
+}
+
+#pt-modes {
+	width: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 760px;
+}
+
+#train, #tram, #bus {
+	height: 65px;
+	padding-right: 20px;
+	float: left;
 }
